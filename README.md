@@ -11,20 +11,22 @@
 
 ## 업무에 활용한 기술들
 - 개발언어 ▶ C/C++, C#, JavaScript, Python
-- 3D 개발 ▶ OpenGL, VTK, Unity
-- 딥러닝 ▶ Tensorflow, Anaconda, PyCharm, Spyder
-- UI 프레임워크 ▶ QT, Vue.js, IMGUI, WinForm
+- 3D 개발 ▶ OpenGL, VTK, Unity, Vulkan
+- GPGPU  ▶ CUDA
+- UI 프레임워크 ▶ QT, Vue.js, IMGUI, MFC, WinForm
+- 딥러닝 ▶ Tensorflow, Anaconda, Docker, PyCharm, Spyder
+- 웹 ▶ vue.js, node.js, vtk.js, Docker, AWS
 - 소스관리 ▶ Bitbucket, GitHub, SourceTree
 - 협업툴 ▶ Jira, Confluence, Trello, Slack, Postman
 - 그 외 다양한 C++ 라이브러리 사용 경험
- ( Graphics / Polygon Processing / CUDA / Vision / HTTP Communication / Compression… )
+ ( Graphics / Polygon Processing / Vision / HTTP Communication / Compression… )
 
 <br/>
 
 ## 관심 기술분야
 - Computer Graphics / Modern Graphics Engine
 - GPGPU (General Purpose GPU) / Parallel Computing
-- Computer Vision / Deep-Learning
+- Computer Vision / Deep-Learning / AI
 - Optimizing Performance
 
 <br/>
@@ -33,7 +35,7 @@
 - Low-Level Development
   - Low-Level, 성능이 필요한 개발 경험 다수 보유
   - C++ 14, 17 표준 방식 개발에 익숙함, 최신문법을 적극적으로 학습, 도입하고 있음.
-  - 여러 언어를 교차 사용함으로써 현대 개발환경, 기술에 대한 폭넓은 이해도를 보유하고 있음.
+  - SIMD 최적화와 같은 CPU 병렬처리를 사용한 최적화 경험
 
 <br/>
 
@@ -45,10 +47,12 @@
 
 - Optimizing
   - Computing 자원을 최대한 활용하여 성능을 끌어올리는 작업을 다수 수행함. (CPU or GPU)
+  - Graphics Engineer로써 GPU 동작원리에 대한 깊은 이해를 바탕으로 GPGPU 최적화 수행할 수 있음.
 
 <br/>
 
 - Problem Solving
+  - 다양한 언어 및 환경에서의 개발을 실전에서 경험함으로써 현대 개발환경, 기술에 대한 폭넓은 이해도를 보유하고 있음.
   - 컴퓨터 공학적인 배경지식을 바탕으로 미지의 영역에서 기술적인 솔루션을 찾는 과정에 익숙함.
 
 <br/>
@@ -62,7 +66,7 @@
 <br/>
 
 2020.07 ~ 재직중, 퇴사예정 | ㅇㅇㅇㅇ 기업부설 연구소 | 선임연구원
-> - 스캔 데이터를 활용하는 솔루션 개발 (글로벌 서비스, 다국어 지원)
+> - 얼굴 스캔 데이터 분석 시각화 솔루션 개발 (글로벌 서비스, 다국어 지원)
 > - 3D Polygon Mesh & Texture 가공 모듈 개발
 > - 시스템 설계, 테크니컬 리딩, 알고리즘 모듈 개발, 성능 최적화
 > - 웹 3D Viewer & 3D 데이터 관리 시스템 연구 개발 (2022.09 ~ 현재)
@@ -85,7 +89,7 @@
 <br/>
 
 2017.06 ~ 2019.05 | ㅇㅇㅇㅇㅇ 기업부설연구소 | 주임연구원
-> - 스캔 데이터를 활용하는 3D 솔루션(C++, Modern OpenGL) 개발 및 연구
+> - 대용량의 건물 스캔 데이터를 활용하는 고성능 3D 솔루션(C++, Modern OpenGL) 개발 및 연구
 > - 산학협력 연구개발(360 VR), C 기반 모듈 개발, 성능 최적화, 기술 지원
 > - Unity 기반의 VR 기술 연구 및 저작도구 개발
 
@@ -144,8 +148,15 @@
 
 - Shader 방식의 Modern OpenGL을 사용한 고성능 엔진 연구 (2018.10 ~ 2018.12)
 <br/> 대용량 3D 스캔 데이터 뷰어 프로그램 개발 (2018.04 ~ 2018.06)
-  > - 역할: 단독 연구 개발
+  > - 역할: 단독 연구개발
   > - 기술: C++, OpenGL, GLSL, GLFW, GLEW, GLM, OpenMesh, LibE57, PCL, OpenAsset
+
+<br/>
+
+- 스캔/얼굴인식 기술검토 & 연구개발 (2018.07 ~ 2018.09)
+  > - 역할: 기술검토, 카메라 연동 모듈 개발, Bayer Field 방식 카메라 연결
+  > - 기술: C++, QT, MFC, RealSence SDK2, CUDA, OpenGL, Dlib, OpenCV, Android
+  > - 장비: RealSence D435, oCam
 
 <br/>
 
@@ -163,6 +174,7 @@
 <br/>
 
 - 스캔 데이터를 편집하고 VR로 플레이할 수 있는 3D 저작도구 개발 (2017.09 ~ 2017.12)
+  > - 역할: 주 개발자. VR 관련 파트 전담. 컨텐츠 편집 기능.
   > - 기술: C#, Unity, Unity Shader
 
 <br/>
@@ -170,8 +182,9 @@
 - 왜곡된 이미지들을 보정하는 프로그램의 구현 (2017.09)
 <br/> 360 카메라 개발에 필요한 Panorama Stitching 모듈 개발 (2017.08 ~ 2017.09)
 <br/> FLIR PointGrey Camera 컨트롤 모듈 및 Stitching 프로그램 개발 (2017.08)
-  > - 기술: C++, FlyCapture2, OpenCV, MFC, Matlab, OpenGL
-  > - 장비: PointGrey, RealSense, oCam
+  > - 역할: 단독 연구개발, 카메라 연동 모듈 개발, Vision 카메라 개발 기술지원
+  > - 기술: C++, FlyCapture2, OpenCV, MFC, Matlab, OpenGL, FlyCapture2
+  > - 장비: PointGrey, RealSense, ZED
 
 <br/>
 
@@ -203,7 +216,21 @@
 
 <br/>
 
+### 치아 데이터 분석, 가공 업로드 솔루션 & 웹 솔루션 (2022.05 ~ 2023.05)
+#### 주요 기술: C++ / VTK / QT / JavaScript / Vue.js / vtk.js / node.js / MySQL / AWS
+
+    > ...
+
+### 얼굴 스캔 데이터 분석, 시각화 솔루션 (2021.01 ~ 2022.03)
+#### 주요 기술: C++ / VTK / QT
+
+    > ...
+
+<br/>
+
 ### 자율주행 시뮬레이터 (2020.01 ~ 2020.06)
+#### 주요 기술: C# / Unity / C++
+
 1. 유니티에서 대용량 Raw Sensor 데이터를 전송하기 위한 네트워킹 기법 연구
     > - NetMQ, ProtoBuffer, PlatBuffer
     > - OSI (Open Simulation Interface) 방식으로 데이터를 전송하기 위해서 
@@ -229,10 +256,50 @@
     > 
     > 성과
     > - 250만 포인트의 연산 수행 시 렌더링 속도 향상 (40.9 fps / 25.8ms ▶ 83.4 fps / 16.8ms)
-    > - 하드웨어 스펙에 따라 옵션을 자유롭게 조절하며 테스트할 수 있는 모듈 구현 (Horizon Vertical FOV, Vertical FOV(Upper, Lower), Angular Resolution, Rotation Rate)
+    > - 하드웨어 스펙에 따라 옵션을 자유롭게 조절하며 테스트할 수 있는 모듈 구현
+    > <br/>  (Horizon Vertical FOV, Vertical FOV(Upper, Lower), Angular Resolution, Rotation Rate)
 
+<br/>
 
+### 대용량 3D 스캔 데이터를 위한 고성능 렌더러 엔진 연구 개발 (2018.04 ~ 2018.06, 2018.10 ~ 2018.12)
+#### 주요 기술: C++ / OpenGL
 
+1. 대용량 PointCloud 렌더링 엔진 설계 및 개발
+    > - 문제상황
+    >   - legacy OpenGL 방식으로 빠르게 만들어 달라는 요구사항 전달받음
+    >   - 이론적으로 불가능함을 설명했으나 일단 진행해달라는 요청
+    >   - 예상했던 대로 성능 이슈 발생, 렌더링 화면 딜레이, 버퍼링 심각함
+    > - 솔루션 제시 but 추가 이슈 발생
+    >   - Shader를 사용하는 Modern OpenGL(Retained Mode) 방식으로 개발, 성능 이슈 해결
+    >   - 그러나 GPU 성능이 떨어지는 컴퓨터에서는 다운되는 문제 발생
+    >   - 저사양 GPU 환경에서는 로딩속도가 극단적으로 느려지는 현상도 발생
+    > - 최종 솔루션
+    >   - e57 분할 포맷을 사용하여 파일을 분할 로딩함
+    >   - GPU 로딩 단계를 분할하고 변경 함으로써 프로그램 다운 방지 ▶ 물리적 GPU RAM이 적은 GPU도 대응가능
+    >   - 저사양 GPU에서도 느리더라도 안정적으로 동작함
+    >   - 추가 성능향상을 위해 실사용하지 않는 더미 데이터 예외처리 로직 추가
+    >   
+    > <br/>
+    > 
+    > 성과
+    > - 1억 4200만개 PointCloud 데이터를 시간 지연 없이 빠르게 렌더링 (파일당 1485만개 데이터)
+    > - 저사양 GPU에서도 1억 4200만개 PointCloud 데이터가 로딩 가능해짐 (요청사항 충족)
+    > 
+
+2. Shader 방식의 Modern OpenGL을 사용한 고성능 엔진 연구
+    > - Shader를 더 효율적으로 사용하기 위한 설계
+    > - PointCloud와 Mesh 구조 양쪽을 다 로딩하기 위한 구조 추가
+    > - 여러 형식의 데이터 로딩을 위해 효율적으로 Shader를 컨트롤하도록 리팩토링
+    > - Shader(VS/TCS/TES/GS/FS)를 다양하게 응용할 수 있는 방법에 대한 연구
+    >   
+    > <br/>
+    > 
+    > 성과
+    > - 대용량의 파일 로딩이 가능하고 빠르게 렌더링 할 수 있는 고성능 렌더러 엔진 구현
+    > - ply, obj, fbx 로딩 가능, 데이터 가공을 위해 OpenMesh 데이터 구조와 연동
+    > 
+
+<br/>
 
 
 
