@@ -19,7 +19,7 @@
 - 소스관리 ▶ Bitbucket, GitHub, SourceTree
 - 협업툴 ▶ Jira, Confluence, Trello, Slack, Postman
 - 그 외 다양한 C++ 라이브러리 사용 경험
- ( Graphics / Polygon Processing / Vision / HTTP Communication / Compression… )
+<br/>  ( Graphics / Polygon Processing / Vision / HTTP Communication / Compression… )
 
 <br/>
 
@@ -272,6 +272,7 @@
     > 
     > 성과
     > - 250만 포인트의 연산 수행 시 렌더링 속도 향상 (40.9 fps / 25.8ms ▶ 83.4 fps / 16.8ms)
+    > - 성능향상을 위한 다양한 방법론, 기술 자산 축적, 내부 개발팀과 공유
     > - 하드웨어 스펙에 따라 옵션을 자유롭게 조절하며 테스트할 수 있는 모듈 구현
     > <br/>  (Horizon Vertical FOV, Vertical FOV(Upper, Lower), Angular Resolution, Rotation Rate)
 
